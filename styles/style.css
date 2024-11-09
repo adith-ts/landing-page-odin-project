@@ -1,38 +1,38 @@
 * {
+}
+
+.zeroth-container {
+
+	background-color: #1F2037;
+	padding: 0vw 17vw;
+	padding-top: 30px;
+	height: 70vh;
+
+	
+
+}
+body {
 	font-family: "Roboto";
 }
 
-.header-container {
-	background-color: #1F2037;
-	color: #F9FAF8;
-
-}
 header {
 
 	display: flex;
+	color: #F9FAF8;
 	justify-content: space-between;
 }
 .header-first-half {
-	margin-left: 260px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 40px;
-}
-.navbar {
-	display: flex;
-	justify-content: space-between;
-	margin-right: 260px;
-	padding: 20px;
-	min-width: 500px;	
-}
-
-
-p.header-logo {
 	font-size: 24px;
-	margin: 0px;
 	font-weight: 900;
 }
+.navbar {
+	width: 28vw;
+	max-width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
 
 p.hero {
 	font-size: 48px;
@@ -48,23 +48,18 @@ a.subtext {
 
 .first-container {
 
-	background-color: #1F2037;
+	padding-top: 100px;
 	color: #F9FAF8;
 	display: flex;
 
 }
 
 .info {
-	margin-left: 260px;
-	margin-right: auto;
-	padding: 50px;
 }
 
 .rightimg {
-	margin-right: 260px;
+	margin-right: 0;
 	margin-left: auto;
-	padding-right: 20px;
-	padding-top: 40px;
 }
 	
 .subtext {
@@ -74,16 +69,18 @@ a.subtext {
 }
 
 .img1 {
-	height: 100px;
-	width: 200px;
+	height: auto;
+	width: 25vw;
 }
-#fb {
+.fb {
 	color: #F9FAF8;
 	background-color: #3882F6;
 	text-decoration: none;
 	border: none;
 	border-radius: 5px;
-	font-weight: bold;
+	font-weight: 900;
+	padding: 10px 30px;
+	margin-top: 20px;
 
 }
 
@@ -93,9 +90,8 @@ p {
 }
 
 img.border {
-	border: 5px solid #3882F6;
-	height: 170px;
-	width: 170px;
+	height: 100px;
+	width: 100px;
 	border-radius: 15px;
 
 }
@@ -126,14 +122,21 @@ img.border {
 	color: #1F2937;
 }
 .quote {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-right: auto;
 	margin-left: auto;
 	min-height: 200px;
 	font-size: 36px;
 	font-style: italic;
+	font-weight: 300;
+	padding: 30px 26.2vw;
+}
+.author {
+	font-weight: 900;
+	font-size: 24px;
+	font-style: normal;
+	margin-right: 0px;
+	margin-left: auto;
+	text-align: right;
 }
 	
 .big4th {
@@ -145,18 +148,15 @@ img.border {
 }
 .fourth-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: #3882F6;
 	min-height: 300px;
-	min-width: 1000px;
 	align-items: center;
 	font-size: 18px;
 	color: white;
-	margin-left: 260px;
-	margin-right: 260px;
 	border-radius: 15px;
-	padding-right: 200px;
-	padding-left: 200px;
+	margin: auto;
+	width: 60vw;
 
 }
 .last-bold {
@@ -164,11 +164,13 @@ img.border {
 	font-size: 20px;
 }
 
-#fb2 {
+.fb2 {
 	background-color: #3882F6;
 	color: white;
 	border-radius: 5px;
-	min-width: 120px
+	min-width: 120px;
+	border: 4px solid white;
+	margin-left: 15px;
 }
 
 footer {
